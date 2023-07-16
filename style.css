@@ -66,10 +66,73 @@ a{
   color: #727272;
 
 }
-img{
+ .img-photo{
   width: 100%;
-  margin-top: 20px;
+  margin-top: 20px; */
+} 
+/* main styles */
+main{
+  max-width: 1440px;
+  margin: 0 auto;
 }
+/* teams styles */
+.teams-container{
+  display: flex;
+  align-items: center;
+
+}
+.teams-img-cotaner{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+}
+.teams-content{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.teams-title{
+  font-size: 2.8rem;
+}
+.teams-title .quick-list{
+  color: #727272;
+  font-weight: 500;
+
+}
+.teams-title .text-features{
+  color: #FF900E;
+  font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive media queary */
 @media screen and (max-width: 576px) {
   header {
